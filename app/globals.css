@@ -1,0 +1,58 @@
+@import "tailwindcss";
+
+:root {
+  --primary-yellow: #FFBA00;
+  --secondary-black: #000000;
+  --accent-white: #FFFFFF;
+  --purple-start: #4c1d95;
+  --purple-end: #1e1b4b;
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+@theme inline {
+  --color-primary: var(--primary-yellow);
+  --color-secondary: var(--secondary-black);
+  --color-accent: var(--accent-white);
+  --color-purple-start: var(--purple-start);
+  --color-purple-end: var(--purple-end);
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+/* Custom gradient classes */
+.gradient-purple-black {
+  background: linear-gradient(135deg, var(--purple-start) 0%, var(--purple-end) 100%);
+}
+
+.text-primary {
+  color: var(--primary-yellow);
+}
+
+.bg-primary {
+  background-color: var(--primary-yellow);
+}
+
+.border-primary {
+  border-color: var(--primary-yellow);
+}
+
+/* Smooth scrolling */
+html {
+  scroll-behavior: smooth;
+}

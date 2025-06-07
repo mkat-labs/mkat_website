@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 24 38" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
+    <g transform="matrix(0.0400668,0,0,0.0400668,-6.01002,-9.11462)">
+        <g transform="matrix(1.07734,0,0,0.947602,-33.1475,42.6368)">
+            <rect x="170" y="203" width="556" height="985"/>
+        </g>
+        <g transform="matrix(0.976619,0,0,0.898871,11.9748,76.5292)">
+            <rect x="170" y="203" width="556" height="985" style="fill:white;"/>
+        </g>
+        <g>
+            <g>
+                <g transform="matrix(-0.24618,0,0,0.707808,437.225,217.572)">
+                    <rect x="140" y="141" width="597" height="597"/>
+                </g>
+                <g transform="matrix(-0.168697,0,0,0.19881,345.183,333.44)">
+                    <rect x="140" y="141" width="597" height="597"/>
+                </g>
+                <g transform="matrix(-0.780714,0,0,1.44206,553.437,-1036.08)">
+                    <rect x="240" y="964" width="94" height="242" style="fill:rgb(255,186,0);"/>
+                </g>
+                <g transform="matrix(-0.877784,0,0,0.367774,576.734,-0.468467)">
+                    <rect x="240" y="964" width="94" height="242" style="fill:rgb(255,186,0);"/>
+                </g>
+                <g transform="matrix(-1.17315,0,0,0.183887,647.621,221.3)">
+                    <rect x="240" y="964" width="94" height="242" style="fill:rgb(255,186,0);"/>
+                </g>
+                <g transform="matrix(-0.24618,0,0,0.707808,566.213,280.809)">
+                    <rect x="140" y="141" width="597" height="597"/>
+                </g>
+                <g transform="matrix(-0.780714,0,0,1.44206,682.426,-972.845)">
+                    <rect x="240" y="964" width="94" height="242" style="fill:rgb(255,186,0);"/>
+                </g>
+                <g transform="matrix(-0.780714,0,0,1.44206,682.426,-972.845)">
+                    <rect x="240" y="964" width="94" height="242" style="fill:rgb(255,186,0);"/>
+                </g>
+                <g transform="matrix(-0.877784,0,0,0.367774,705.723,62.7694)">
+                    <rect x="240" y="964" width="94" height="242" style="fill:rgb(255,186,0);"/>
+                </g>
+                <g transform="matrix(-1.17315,0,0,0.183887,776.61,284.537)">
+                    <rect x="240" y="964" width="94" height="242" style="fill:rgb(255,186,0);"/>
+                </g>
+                <g transform="matrix(-0.24618,0,0,0.707808,694.47,353.879)">
+                    <rect x="140" y="141" width="597" height="597"/>
+                </g>
+                <g transform="matrix(-0.780714,0,0,1.44206,810.683,-899.677)">
+                    <rect x="240" y="964" width="94" height="242" style="fill:rgb(255,186,0);"/>
+                </g>
+                <g transform="matrix(-0.877784,0,0,0.367774,833.98,135.839)">
+                    <rect x="240" y="964" width="94" height="242" style="fill:rgb(255,186,0);"/>
+                </g>
+                <g transform="matrix(-1.17315,0,0,0.183887,904.867,357.607)">
+                    <rect x="240" y="964" width="94" height="242" style="fill:rgb(255,186,0);"/>
+                </g>
+            </g>
+            <g transform="matrix(0.600471,0,0,1.31048,187.336,-577.927)">
+                <rect x="114" y="1256" width="673.163" height="14"/>
+            </g>
+            <g transform="matrix(0.827749,0,0,0.785635,166.481,110.693)">
+                <g transform="matrix(297.358,0,0,297.358,614.889,1207)">
+                </g>
+                <text x="96px" y="1207px" style="font-family:'LiGothicMed', 'Apple LiGothic';font-size:297.358px;">mkat</text>
+            </g>
+        </g>
+    </g>
+</svg>
