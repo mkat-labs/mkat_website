@@ -9,7 +9,7 @@ export default function Home() {
           <div className="flex items-center justify-between relative min-h-[60px]">
             {/* Left Navigation */}
             <div className="hidden md:flex space-x-12 font-bold text-lg">
-              <a href="#services" className="hover:text-brand-yellow transition-colors">
+              <a href="/services" className="hover:text-brand-yellow transition-colors">
                 Services
               </a>
               <a href="https://www.mkat.studio" target="_blank" rel="noopener noreferrer" className="hover:text-brand-yellow transition-colors">
@@ -58,9 +58,6 @@ export default function Home() {
         <div className="max-w-7xl mx-auto px-8 py-20">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
             <div>
-              <h1 className="text-6xl lg:text-8xl font-black text-black mb-6 leading-tight">
-                mkat
-              </h1>
               <h2 className="text-2xl lg:text-3xl font-bold text-black mb-8 border-l-8 border-black pl-6">
                 every bit counts
               </h2>
@@ -68,21 +65,29 @@ export default function Home() {
                 We love the internet and want to make it a better, safer and more efficient place by designing beautiful apps that help people get things done.
               </p>
               <div className="flex flex-col sm:flex-row gap-4">
-                <button className="bg-black text-white px-8 py-4 text-lg font-bold hover:bg-gray-800 transition-colors border-4 border-black">
+                <a href="/services" className="bg-black text-white px-8 py-4 text-lg font-bold hover:bg-gray-800 transition-colors border-4 border-black text-center">
                   Make yourself a destination
-                </button>
-                <button className="border-4 border-black text-black px-8 py-4 text-lg font-bold hover:bg-black hover:text-white transition-colors">
+                </a>
+                <a href="https://www.mkat.studio" target="_blank" rel="noopener noreferrer" className="border-4 border-black text-black px-8 py-4 text-lg font-bold hover:bg-black hover:text-white transition-colors text-center">
                   View Our Work
-                </button>
+                </a>
               </div>
             </div>
-            <div className="flex justify-center">
+            <div className="flex flex-col items-center">
               <Image
                 src="/mkat_locations.svg"
                 alt="mkat global locations"
                 width={500}
                 height={400}
-                className="max-w-full h-auto"
+                className="max-w-full h-auto mb-8"
+              />
+              <Image
+                src="/mkat_name_only_logo.svg"
+                alt="mkat"
+                width={240}
+                height={72}
+                className="h-16 lg:h-24 w-auto"
+                priority
               />
             </div>
           </div>
@@ -165,10 +170,10 @@ export default function Home() {
                 About mkat
               </h2>
               <p className="text-xl lg:text-2xl text-black leading-relaxed mb-8">
-                mkat is a software company. We love the internet and want to make it a better, safer and more efficient and all around nicer place to be by designing beautiful apps that help people get things done.
+                Founded by engineers who&apos;ve worked across three continents, bringing experience from security, manufacturing, logistics, and agriculture sectors.
               </p>
               <p className="text-xl lg:text-2xl text-black leading-relaxed">
-                Whether it&apos;s shifting around big data, interacting with customers or automating nasty email chains. Let us help you build it better!
+                We focus on practical solutions that work—whether it&apos;s streamlining supply chains, securing data, or optimizing production workflows.
               </p>
             </div>
             <div className="bg-black border-4 border-black p-8">
@@ -260,7 +265,7 @@ export default function Home() {
             <div>
               <h3 className="text-black font-bold text-xl mb-6">Quick Links</h3>
               <ul className="space-y-3">
-                <li><a href="#services" className="text-black hover:text-white transition-colors text-lg">Services</a></li>
+                <li><a href="/services" className="text-black hover:text-white transition-colors text-lg">Services</a></li>
                 <li><a href="#about" className="text-black hover:text-white transition-colors text-lg">About</a></li>
                 <li><a href="#careers" className="text-black hover:text-white transition-colors text-lg">Careers</a></li>
                 <li><a href="#contact" className="text-black hover:text-white transition-colors text-lg">Contact</a></li>

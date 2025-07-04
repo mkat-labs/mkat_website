@@ -15,6 +15,9 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "mkat - every bit counts",
   description: "mkat is a software company. We love the internet and want to make it a better, safer and more efficient place by designing beautiful apps that help people get things done.",
+  icons: {
+    icon: "/mkat_small.svg",
+  },
 };
 
 export default function RootLayout({

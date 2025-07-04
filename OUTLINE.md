@@ -11,7 +11,11 @@ A link to `www.mkat.studio` our studio for showcasing customer designs and past 
 A page for joining the team
 
 ### About us
-mkat is is a software company. We love the internet and want to make it a better, safer and more efficient and all roun d nicer place to be by designing beatuiful apps that help people get things done. Whether is shifting around big data, interacting with customers or automating nasty email chains. Let us help you build it better!
+mkat is is a software company. 
+
+Engineer founded and engineer led with roots over three conttinents and experience in multiple sectors
+
+We love the internet and want to make it a better, safer and more efficient and all roun d nicer place to be by designing beatuiful apps that help people get things done. Whether is shifting around big data, interacting with customers or automating nasty email chains. Let us help you build it better!
 
 ### contact us
 
