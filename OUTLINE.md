@@ -1,186 +1,35 @@
-# Website Content & Layout Brief for mkat
+# Website Outline
 
-## Brand Identity & Design Guidelines
+This file cover swhat pages the website should have. Please find the styling guidline in the `BRANDING.md`.
 
-### Color Palette
-- **Primary:** #FFBA00 (Yellow)
-- **Secondary:** Black (#000000)
-- **Accent:** White (#FFFFFF)
-- **Background Gradient:** Deep purple to complement yellow logo
+## Pages
 
-### Typography
-- **Primary:** Apple Gothic
-- **Secondary:** Helvetica/Helvetica Neue
-- **Style:** Clean, modernist, highly legible
+### Studio
+A link to `www.mkat.studio` our studio for showcasing customer designs and past projects
 
-### Logo Specifications
-- File: mkat_small.svg
-- Dimensions: 24px W × 40px H
-- Description: Yellow 'M' with thick black border
-- Placement: Top-left header, maintain clear space
+### Carreers
+A page for joining the team
 
-### Design Aesthetic
-- Modernist approach with sharp, clean lines
-- High contrast elements
-- Strategic use of gradients (deep purple backgrounds)
-- Minimalist layout with purposeful white space
+### About us
+mkat is is a software company. We love the internet and want to make it a better, safer and more efficient and all roun d nicer place to be by designing beatuiful apps that help people get things done. Whether is shifting around big data, interacting with customers or automating nasty email chains. Let us help you build it better!
 
-## Site Structure & Pages
+### contact us
 
-### 1. Homepage
-**Purpose:** Strong first impression showcasing comprehensive digital solutions
+### Services
+#### Digital Presence Management
+![alt text](public/dpm_logo_only.svg) (Black logo of a face on a field of yellow (see branding doc for yellow code))
+All of the solutions presented below fall under our philosophy of digital presnece managemnt. We want to help you curate your digital presence. Fromn your customer facing websites, to your internal and customer facings app , interfaces and forms. From invoices and integrations, to services, to marketing and social media management. Our passion is the digital realm and helping you "Make yourself a destination"
 
-**Content Sections:**
-- **Hero Section:** "Complete Digital Ecosystem Solutions"
-  - Tagline: "From concept to digital dominance - we build, connect, and scale your entire business ecosystem"
-  - CTA: "Discover Your Digital Potential"
-  
-- **Services Overview (3 pillars):**
-  - Digital Presence Management
-  - Big Data & Analytics Solutions  
-  - Manufacturing Intelligence Systems
+##### Bespoke Applications
+###### Data Solutions
+We use Microsoft Azure as our cloud provider to ensure that your data lives on servers in your country
+We offer IOT intergrations to move and store your data into actionable insights
 
-- **Global Presence:** Interactive map showing German heritage, South African roots, Hong Kong base
-- **Client Success Metrics:** Data-driven results showcase
-- **Technology Stack:** Modern tools and frameworks visualization
+###### Web Solutions
+We build web apps that help you better manage your oragnisation and interact with your clients. Our designs are founded on phsycological pronciples to ensure ease of use and maxium productivity.
 
-### 2. Services Pages
 
-#### 2.1 Digital Presence Management
-**Content:**
-- Web Design & Development
-- Social Media Integration & Management
-- Traditional Marketing Coordination
-- Brand Consistency Across Platforms
-- Real-time Analytics Dashboard
-
-#### 2.2 Big Data Solutions
-**Content:**
-- Data Architecture & Pipeline Development
-- Machine Learning Implementation
-- Predictive Analytics
-- Custom Algorithm Development
-- Data Visualization & Reporting
-
-#### 2.3 Manufacturing Intelligence
-**Content:**
-- IoT Integration
-- Production Optimization
-- Quality Control Systems
-- Supply Chain Analytics
-- Automated Workflow Management
-
-### 3. Technology & Approach
-**Content:**
-- Modular Architecture Philosophy
-- Scalability Framework
-- Customization Methodology
-- Integration Capabilities
-- Security & Compliance Standards
-
-### 4. About Us
-**Content:**
-- Company Story (German-South African roots, Hong Kong evolution)
-- Founder Backgrounds (ML & Big Data expertise)
-- Global Office Locations
-- Team Expertise
-- Company Values & Mission
-
-### 5. Case Studies/Portfolio
-**Content:**
-- Client Success Stories
-- Before/After Transformations
-- Industry-Specific Solutions
-- Quantifiable Results
-- Technology Implementation Details
-
-### 6. Resources/Blog
-**Content:**
-- Industry Insights
-- Technology Trends
-- Best Practices
-- Whitepapers
-- Webinar Series
-
-### 7. Contact/Get Started
-**Content:**
-- Multi-location Contact Information
-- Project Consultation Form
-- Service Selection Tool
-- Response Time Commitments
-
-## Layout Design Specifications
-
-### Header
-- Logo (mkat_small.svg) - top left
-- Navigation: Services | Technology | About | Case Studies | Resources | Contact
-- CTA Button: "Start Your Transformation"
-- Background: Gradient from deep purple to black
-
-### Footer
-- Office locations with local contact info
-- Service quick links
-- Social media icons
-- Newsletter signup
-- Copyright with proudly multilingual statement
-
-### Page Templates
-
-#### Homepage Template
-- Full-width hero with video background option
-- Three-column service preview cards
-- Interactive global presence map
-- Metrics dashboard style statistics
-- Client logo carousel
-
-#### Service Pages Template
-- Split-screen layout (60% content, 40% visual)
-- Process flow diagrams
-- Feature comparison tables
-- Integration architecture diagrams
-
-#### Case Study Template
-- Large hero image/video
-- Challenge-Solution-Results format
-- Infographic-style metrics
-- Technology stack visualization
-
-## Content Strategy
-
-### Tone of Voice
-- **Professional yet approachable**
-- **Data-driven and results-focused**
-- **Globally minded with local expertise**
-- **Innovation-forward thinking**
-
-### Key Messaging Pillars
-1. **Complete Integration:** "Every aspect of your business, digitally connected"
-2. **Scalable Solutions:** "Grow from startup to enterprise with seamless scaling"
-3. **Global Expertise:** "International perspective with local understanding"
-4. **Proven Results:** "Data-driven solutions with measurable outcomes"
-
-### Call-to-Action Strategy
-- Primary: "Transform Your Business"
-- Secondary: "Schedule Consultation"
-- Tertiary: "Explore Solutions"
-
-## Technical Considerations
-
-### Responsive Design
-- Mobile-first approach
-- Tablet optimization
-- Desktop enhancement
-- Cross-browser compatibility
-
-### Performance
-- Fast loading times (<3 seconds)
-- Optimized images and SVGs
-- Efficient gradient implementations
-- Clean code structure
-
-### SEO Strategy
-- Service-focused landing pages
-- Location-based optimization
-- Technical content for thought leadership
-- Schema markup for business information
-
+##### Workflow Manager
+[text](<solutions docs/workflow_manager.md>)
+![alt text](public/workflow_manager_logo_notext_yellow_background.svg)(Black logo on a field of yellow (see branding doc for yellow code))
+![alt text](public/workflow_manager_logo_text_yellow_background.svg)(Black logo on a field of yellow (see branding doc for yellow code))
