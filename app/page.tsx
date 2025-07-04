@@ -42,7 +42,7 @@ export default function Home() {
         </div>
         
         {/* Floating Logo */}
-        <div className="absolute left-1/2 transform -translate-x-1/2 top-full -translate-y-1/2 z-20 bg-white border-4 border-black rounded-lg p-3">
+        <div className="absolute left-1/2 transform -translate-x-1/2 top-full -translate-y-1/2 z-20">
           <Image
             src="/mkat_small.svg"
             alt="mkat logo"
