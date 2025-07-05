@@ -1,0 +1,8 @@
+# Redirect trailing slashes
+/*    /index.html   200
+
+# SPA fallback (for client-side routing if you add it later)
+# /*    /index.html   200
+
+# 404 page
+/404  /404.html     404

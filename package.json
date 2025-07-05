@@ -5,8 +5,13 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
+    "build:cloudflare": "next build && touch out/.nojekyll",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "lint:fix": "next lint --fix",
+    "type-check": "tsc --noEmit",
+    "preview": "npm run build:cloudflare && npx serve out",
+    "analyze": "ANALYZE=true npm run build"
   },
   "dependencies": {
     "react": "^19.0.0",

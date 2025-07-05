@@ -1,0 +1,16 @@
+{
+  "name": "mkat - every bit counts",
+  "short_name": "mkat",
+  "description": "mkat is a software company. We love the internet and want to make it a better, safer and more efficient place by designing beautiful apps that help people get things done.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#000000",
+  "icons": [
+    {
+      "src": "/mkat_small.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ]
+}
