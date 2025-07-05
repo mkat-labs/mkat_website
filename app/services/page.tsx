@@ -60,7 +60,7 @@ export default function ServicesPage() {
       <section className="bg-brand-yellow min-h-[60vh] flex items-center pt-12">
         <div className="max-w-7xl mx-auto px-8 py-20">
           <div className="text-center">
-            <div className="inline-flex items-center justify-center bg-black p-8 mb-8 border-2 border-black">
+            <div className="inline-flex items-center justify-center p-8 mb-8">
               <Image
                 src="/dpm_logo_only.svg"
                 alt="Digital Presence Management"
@@ -486,9 +486,9 @@ export default function ServicesPage() {
             <div>
               <h3 className="text-black font-bold text-xl mb-6">Get In Touch</h3>
               <ul className="space-y-3">
-                <li className="text-black text-lg">South Africa</li>
-                <li className="text-black text-lg">Hong Kong</li>
-                <li className="text-black text-lg">Germany</li>
+                <li><a href="https://mkat.co.za" target="_blank" rel="noopener noreferrer" className="text-black hover:text-brand-yellow transition-colors text-lg">South Africa</a></li>
+                <li><Link href="/" className="text-black hover:text-brand-yellow transition-colors text-lg">Hong Kong</Link></li>
+                <li><Link href="/" className="text-black hover:text-brand-yellow transition-colors text-lg">Germany</Link></li>
                 <li><a href="mailto:hello@mkat-labs.com" className="text-black hover:text-brand-yellow transition-colors text-lg">hello@mkat-labs.com</a></li>
               </ul>
             </div>

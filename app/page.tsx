@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 
 export default function Home() {
   return (
@@ -277,9 +278,9 @@ export default function Home() {
             <div>
               <h3 className="text-black font-bold text-xl mb-6">Get In Touch</h3>
               <ul className="space-y-3">
-                <li className="text-black text-lg">South Africa</li>
-                <li className="text-black text-lg">Hong Kong</li>
-                <li className="text-black text-lg">Germany</li>
+                <li><a href="https://mkat.co.za" target="_blank" rel="noopener noreferrer" className="text-black hover:text-white transition-colors text-lg">South Africa</a></li>
+                <li><Link href="/" className="text-black hover:text-white transition-colors text-lg">Hong Kong</Link></li>
+                <li><Link href="/" className="text-black hover:text-white transition-colors text-lg">Germany</Link></li>
                 <li><a href="mailto:hello@mkat-labs.com" className="text-black hover:text-white transition-colors text-lg">hello@mkat-labs.com</a></li>
               </ul>
             </div>

@@ -297,7 +297,13 @@ export default function AboutPage() {
               <h3 className="text-black font-bold text-xl mb-6">Get In Touch</h3>
               <ul className="space-y-3">
                 <li><Link href="/#contact" className="text-black hover:text-white transition-colors">Contact Us</Link></li>
-                <li className="text-black">South Africa • Hong Kong • Germany</li>
+                <li>
+                  <a href="https://mkat.co.za" target="_blank" rel="noopener noreferrer" className="text-black hover:text-white transition-colors">South Africa</a>
+                  {" • "}
+                  <Link href="/" className="text-black hover:text-white transition-colors">Hong Kong</Link>
+                  {" • "}
+                  <Link href="/" className="text-black hover:text-white transition-colors">Germany</Link>
+                </li>
               </ul>
             </div>
           </div>
