@@ -18,7 +18,7 @@ export default function ContactPage() {
               <Link href="/services" className="hover:text-brand-yellow transition-colors">
                 Services
               </Link>
-              <a href="https://www.mkat.studio" target="_blank" rel="noopener noreferrer" className="hover:text-brand-yellow transition-colors">
+              <a href="https://mkat.studio" target="_blank" rel="noopener noreferrer" className="hover:text-brand-yellow transition-colors">
                 Studio
               </a>
             </div>
@@ -70,7 +70,7 @@ export default function ContactPage() {
                   Services
                 </Link>
                 <a 
-                  href="https://www.mkat.studio" 
+                  href="https://mkat.studio" 
                   target="_blank" 
                   rel="noopener noreferrer" 
                   className="hover:text-brand-yellow transition-colors py-2"

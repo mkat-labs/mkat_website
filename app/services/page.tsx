@@ -18,7 +18,7 @@ export default function ServicesPage() {
               <Link href="/services" className="text-brand-yellow border-b-2 border-brand-yellow">
                 Services
               </Link>
-              <a href="https://www.mkat.studio" target="_blank" rel="noopener noreferrer" className="hover:text-brand-yellow transition-colors">
+              <a href="https://mkat.studio" target="_blank" rel="noopener noreferrer" className="hover:text-brand-yellow transition-colors">
                 Studio
               </a>
             </div>
@@ -70,7 +70,7 @@ export default function ServicesPage() {
                   Services
                 </Link>
                 <a 
-                  href="https://www.mkat.studio" 
+                  href="https://mkat.studio" 
                   target="_blank" 
                   rel="noopener noreferrer" 
                   className="hover:text-brand-yellow transition-colors py-2"
@@ -492,7 +492,7 @@ export default function ServicesPage() {
             <Link href="/#contact" className="bg-black text-white px-8 py-4 text-lg font-bold hover:bg-gray-800 transition-colors border-4 border-black">
               Get Started Today
             </Link>
-            <Link href="https://www.mkat.studio" target="_blank" rel="noopener noreferrer" className="border-4 border-black text-black px-8 py-4 text-lg font-bold hover:bg-black hover:text-white transition-colors">
+            <Link href="https://mkat.studio" target="_blank" rel="noopener noreferrer" className="border-4 border-black text-black px-8 py-4 text-lg font-bold hover:bg-black hover:text-white transition-colors">
               View Our Portfolio
             </Link>
           </div>

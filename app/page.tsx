@@ -18,7 +18,7 @@ export default function Home() {
               <a href="/services" className="hover:text-brand-yellow transition-colors">
                 Services
               </a>
-              <a href="https://www.mkat.studio" target="_blank" rel="noopener noreferrer" className="hover:text-brand-yellow transition-colors">
+              <a href="https://mkat.studio" target="_blank" rel="noopener noreferrer" className="hover:text-brand-yellow transition-colors">
                 Studio
               </a>
             </div>
@@ -70,7 +70,7 @@ export default function Home() {
                   Services
                 </Link>
                 <a 
-                  href="https://www.mkat.studio" 
+                  href="https://mkat.studio" 
                   target="_blank" 
                   rel="noopener noreferrer" 
                   className="hover:text-brand-yellow transition-colors py-2"
@@ -131,7 +131,7 @@ export default function Home() {
                 <a href="/services" className="bg-black text-white px-8 py-4 text-lg font-bold hover:bg-gray-800 transition-colors border-4 border-black text-center">
                   Make yourself a destination
                 </a>
-                <a href="https://www.mkat.studio" target="_blank" rel="noopener noreferrer" className="border-4 border-black text-black px-8 py-4 text-lg font-bold hover:bg-black hover:text-white transition-colors text-center">
+                <a href="https://mkat.studio" target="_blank" rel="noopener noreferrer" className="border-4 border-black text-black px-8 py-4 text-lg font-bold hover:bg-black hover:text-white transition-colors text-center">
                   View Our Work
                 </a>
               </div>
@@ -332,7 +332,7 @@ export default function Home() {
                 <li><a href="#about" className="text-black hover:text-white transition-colors text-lg">About</a></li>
                 <li><a href="#careers" className="text-black hover:text-white transition-colors text-lg">Careers</a></li>
                 <li><a href="#contact" className="text-black hover:text-white transition-colors text-lg">Contact</a></li>
-                <li><a href="https://www.mkat.studio" target="_blank" rel="noopener noreferrer" className="text-black hover:text-white transition-colors text-lg">Studio</a></li>
+                <li><a href="https://mkat.studio" target="_blank" rel="noopener noreferrer" className="text-black hover:text-white transition-colors text-lg">Studio</a></li>
               </ul>
             </div>
 

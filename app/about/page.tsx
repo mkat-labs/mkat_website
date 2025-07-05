@@ -18,7 +18,7 @@ export default function AboutPage() {
               <Link href="/services" className="hover:text-brand-yellow transition-colors">
                 Services
               </Link>
-              <a href="https://www.mkat.studio" target="_blank" rel="noopener noreferrer" className="hover:text-brand-yellow transition-colors">
+              <a href="https://mkat.studio" target="_blank" rel="noopener noreferrer" className="hover:text-brand-yellow transition-colors">
                 Studio
               </a>
             </div>
@@ -70,7 +70,7 @@ export default function AboutPage() {
                   Services
                 </Link>
                 <a 
-                  href="https://www.mkat.studio" 
+                  href="https://mkat.studio" 
                   target="_blank" 
                   rel="noopener noreferrer" 
                   className="hover:text-brand-yellow transition-colors py-2"
@@ -349,7 +349,7 @@ export default function AboutPage() {
               <ul className="space-y-3">
                 <li><Link href="/about" className="text-black hover:text-white transition-colors">About</Link></li>
                 <li><Link href="/services" className="text-black hover:text-white transition-colors">Services</Link></li>
-                <li><a href="https://www.mkat.studio" target="_blank" rel="noopener noreferrer" className="text-black hover:text-white transition-colors">Studio</a></li>
+                <li><a href="https://mkat.studio" target="_blank" rel="noopener noreferrer" className="text-black hover:text-white transition-colors">Studio</a></li>
                 <li><Link href="/#careers" className="text-black hover:text-white transition-colors">Careers</Link></li>
               </ul>
             </div>
