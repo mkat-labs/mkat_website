@@ -284,9 +284,9 @@ export default function Home() {
           <p className="text-xl lg:text-2xl text-white mb-12 max-w-3xl mx-auto leading-relaxed">
             Ready to make yourself a destination? Let&apos;s discuss how we can help transform your digital presence.
           </p>
-          <button className="bg-brand-yellow text-black px-8 py-4 text-lg font-bold hover:bg-white transition-colors border-4 border-brand-yellow">
+          <Link href="/contact" className="inline-block bg-brand-yellow text-black px-8 py-4 text-lg font-bold hover:bg-white transition-colors border-4 border-brand-yellow">
             Contact Us
-          </button>
+          </Link>
         </div>
       </section>
 
