@@ -26,9 +26,9 @@ export default function Home() {
               <a href="#careers" className="hover:text-brand-yellow transition-colors">
                 Careers
               </a>
-              <a href="#contact" className="hover:text-brand-yellow transition-colors">
+              <Link href="/contact" className="hover:text-brand-yellow transition-colors">
                 Contact
-              </a>
+              </Link>
             </div>
             
             {/* Mobile menu button */}

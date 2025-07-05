@@ -26,7 +26,7 @@ export default function ServicesPage() {
               <Link href="/#careers" className="hover:text-brand-yellow transition-colors">
                 Careers
               </Link>
-              <Link href="/#contact" className="hover:text-brand-yellow transition-colors">
+              <Link href="/contact" className="hover:text-brand-yellow transition-colors">
                 Contact
               </Link>
             </div>
