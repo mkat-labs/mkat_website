@@ -1,7 +1,12 @@
+'use client';
+
 import Image from "next/image";
 import Link from "next/link";
+import { useState } from 'react';
 
 export default function AboutPage() {
+  const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
+
   return (
     <div className="min-h-screen bg-white text-black">
       {/* Navigation */}
@@ -33,14 +38,71 @@ export default function AboutPage() {
             
             {/* Mobile menu button */}
             <div className="md:hidden">
-              <button className="text-black hover:text-brand-yellow p-2">
-                <svg className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 6h16M4 12h16M4 18h16" />
-                </svg>
+              <button 
+                className="text-black hover:text-brand-yellow p-2"
+                onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
+                aria-label="Toggle mobile menu"
+              >
+                {isMobileMenuOpen ? (
+                  <svg className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
+                  </svg>
+                ) : (
+                  <svg className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 6h16M4 12h16M4 18h16" />
+                  </svg>
+                )}
               </button>
             </div>
           </div>
         </div>
+        
+        {/* Mobile Navigation Menu */}
+        {isMobileMenuOpen && (
+          <div className="md:hidden bg-white border-t-4 border-black">
+            <div className="max-w-7xl mx-auto px-8 py-4">
+              <div className="flex flex-col space-y-4 font-bold text-lg">
+                <Link 
+                  href="/services" 
+                  className="hover:text-brand-yellow transition-colors py-2"
+                  onClick={() => setIsMobileMenuOpen(false)}
+                >
+                  Services
+                </Link>
+                <a 
+                  href="https://www.mkat.studio" 
+                  target="_blank" 
+                  rel="noopener noreferrer" 
+                  className="hover:text-brand-yellow transition-colors py-2"
+                  onClick={() => setIsMobileMenuOpen(false)}
+                >
+                  Studio
+                </a>
+                <Link 
+                  href="/about" 
+                  className="text-brand-yellow border-b-2 border-brand-yellow py-2"
+                  onClick={() => setIsMobileMenuOpen(false)}
+                >
+                  About
+                </Link>
+                <Link 
+                  href="/#careers" 
+                  className="hover:text-brand-yellow transition-colors py-2"
+                  onClick={() => setIsMobileMenuOpen(false)}
+                >
+                  Careers
+                </Link>
+                <Link 
+                  href="/contact" 
+                  className="hover:text-brand-yellow transition-colors py-2"
+                  onClick={() => setIsMobileMenuOpen(false)}
+                >
+                  Contact
+                </Link>
+              </div>
+            </div>
+          </div>
+        )}
         
         {/* Floating Logo */}
         <div className="absolute left-1/2 transform -translate-x-1/2 top-full -translate-y-1/2 z-20">
